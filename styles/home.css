@@ -1,8 +1,8 @@
 .container {
     display: grid;
     height: 100vw;
-    border: 10px solid yellow;
-    grid-template-rows: repeat(3, 1fr);
+    border: 2px solid yellow;
+    grid-template-rows: 100px 1fr 50px;
     grid-gap: 5px;
     font-size: 24px;
     /*justify-content: center;*/
@@ -17,6 +17,8 @@
 }
 
 #header-row {
+    display: flex;
+    align-items: center;
     grid-area: 1/1/1/1;
 }
 
@@ -29,17 +31,37 @@
 }
 
 
-/*.content-box {*/
-/*    display: grid;*/
-/*    border: 2px solid blue;*/
-/*    grid-template-rows: repeat(3, 1fr);*/
-/*    grid-template-columns: repeat(2, 1fr);*/
-/*    grid-gap: 25px;*/
-/*}*/
+.content-box {
+    display: grid;
+    border: 2px solid blue;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
 
-/*.post {*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
-/*    border: 1px solid orange;*/
-/*    margin: 20px;*/
-/*}*/
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    /*margin: auto;*/
+    border: 1px solid orange;
+    /*margin: 20px;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+}
+
+.card-category {
+    border: 1px solid orange;
+}
+
+.card-title {
+    border: 1px solid orange;
+}
+
+.card-date {
+    border: 1px solid orange;
+}
+
+.card-link {
+    border: 1px solid orange;
+}
