@@ -10,10 +10,11 @@
     /*margin: auto;*/
 }
 
+/**/
 .box {
     border: 1px solid red;
     justify-content: center;
-    align-items: center;
+    /*align-items: center;*/
 }
 
 #header-row {
@@ -36,14 +37,18 @@
     border: 2px solid blue;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
+    grid-gap: 5px;
+    grid-template-areas:
+            "tl tr"
+            "ml mr"
+            "bl br";
 }
 
 .card {
     display: flex;
     flex-direction: column;
     padding: 10px;
-    /*margin: auto;*/
+    margin: 0;
     border: 1px solid orange;
     /*margin: 20px;*/
     /*align-items: center;*/
@@ -52,6 +57,7 @@
 
 .card-category {
     border: 1px solid orange;
+
 }
 
 .card-title {
@@ -64,4 +70,32 @@
 
 .card-link {
     border: 1px solid orange;
+}
+
+.card {
+    border: 1px solid orange;
+}
+
+#card-1 {
+    grid-area: tl;
+}
+
+#card-2 {
+    grid-area: tr;
+}
+
+#card-3 {
+    grid-area: ml;
+}
+
+#card-4 {
+    grid-area: mr;
+}
+
+#card-5 {
+    grid-area: bl;
+}
+
+#card-6 {
+    grid-area: br;
 }
