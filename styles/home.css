@@ -1,14 +1,14 @@
 .container {
     display: grid;
     height: 100vw;
-    border: 2px solid yellow;
+    /*border: 2px solid yellow;*/
     grid-template-rows: 100px 1fr 50px;
-    grid-gap: 5px;
+    grid-gap: 10px;
     font-size: 24px;
 }
 
 .box {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     justify-content: center;
 }
 
@@ -34,7 +34,7 @@
 
 .content-box {
     display: grid;
-    border: 2px solid blue;
+    /*border: 2px solid blue;*/
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 15px;
@@ -49,25 +49,25 @@
     display: flex;
     flex-direction: column;
     padding: 10px;
-    border: 1px solid orange;
+    /*border: 1px solid orange;*/
     justify-content: space-evenly;
 }
 
 .card-category {
-    border: 1px solid orange;
+    /*border: 1px solid orange;*/
 
 }
 
 .card-title {
-    border: 1px solid orange;
+    /*border: 1px solid orange;*/
 }
 
 .card-link {
-    border: 1px solid orange;
+    /*border: 1px solid orange;*/
 }
 
 .card {
-    border: 1px solid orange;
+    /*border: 1px solid #2c2c2c;*/
 }
 
 #card-1 {
@@ -102,4 +102,13 @@
         grid-template-areas: "tl tr ml mr bl br";
     }
 
+}
+
+.cool-border{
+    border: 1px solid #dddddd;
+    border-collapse: separate;
+    *border-collapse: collapsed;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
 }
