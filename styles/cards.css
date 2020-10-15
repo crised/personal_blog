@@ -1,0 +1,49 @@
+.card {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    /*border: 1px solid orange;*/
+    justify-content: space-evenly;
+}
+
+#card-1 {
+    grid-area: tl;
+}
+
+#card-2 {
+    grid-area: tr;
+}
+
+#card-3 {
+    grid-area: ml;
+}
+
+#card-4 {
+    grid-area: mr;
+}
+
+#card-5 {
+    grid-area: bl;
+}
+
+#card-6 {
+    grid-area: br;
+}
+
+.card-category {
+    /*border: 1px solid orange;*/
+
+}
+
+.card-title {
+    /*border: 1px solid orange;*/
+}
+
+.card-link {
+    /*border: 1px solid orange;*/
+}
+
+.card {
+    /*border: 1px solid #2c2c2c;*/
+}

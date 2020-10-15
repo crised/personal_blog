@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Dog blog post</title>
+    <title>Dog blog post</title>b
     <meta name="description" content="My blog is about fun things">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/blog.css">
-    <link rel="stylesheet" href="styles/bootstrap.min.css">
 </head>
 <body>
 <div class="container">
@@ -34,23 +35,39 @@
             orci, eu mollis massa eleifend at. Quisque laoreet ipsum et dapibus molestie. Aliquam et leo bibendum,
             fringilla nibh non, lobortis ex. Donec consequat, dolor lobortis dictum laoreet, elit arcu aliquam leo, id
             tincidunt diam quam eget lectus. Duis vitae felis sed purus bibendum cursus vitae nec tellus. Nunc imperdiet
-            elit non lacinia molestie. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
+            elit non lacinia molestie. </p>
+        <blockquote>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
             turpis egestas. In egestas dolor sed auctor facilisis. Aenean facilisis eu nisi non facilisis. Suspendisse
             cursus urna sit amet lectus euismod, id scelerisque massa interdum. Lorem ipsum dolor sit amet, consectetur
             adipiscing elit. Curabitur faucibus turpis id erat congue gravida. Pellentesque at sem vel mauris volutpat
-            gravida. Aenean gravida turpis a massa mattis, vel tristique sapien varius. </p>
+            gravida. Aenean gravida turpis a massa mattis, vel tristique sapien varius.
+        </blockquote>
         <h4>Sub-heading</h4>
         <ul>
             <li><p>Ut ultrices felis nunc</p></li>
             <li><p>Nec eleifend nisi ultrices at</p></li>
             <li><p>Duis at sem eget mauris</p></li>
         </ul>
+        <figure id="figure">
+            <img id="img" src="./images/dog.webp" alt="dog">
+            <figcaption>Cute dog</figcaption>
+        </figure>
+
     </div>
     <div id="sidebar" class="box cool-border">
-        <div class="picture"></div>
+
         <h1>
-            <bold>Archives</bold>
+            Author Information
         </h1>
+        <ul class="author-info">
+            <li>Name: John</li>
+            <li>Title: About Dogs</li>
+            <li>Current Company: ACME</li>
+            <li>Short bio: A hilarious writer from Alabama.</li>
+        </ul>
+        <h2>
+            Archives
+        </h2>
         <div id="sidebar-links">
             <a href="index.html">January 2020</a>
             <a href="index.html">February 2020</a>
@@ -61,6 +78,11 @@
             <a href="index.html">July 2020</a>
             <a href="index.html">August 2020</a>
             <a href="index.html">September 2020</a>
+        </div>
+        <h3>Social media</h3>
+        <div id="social-media">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
         </div>
     </div>
     <footer id="footer" class="box">
